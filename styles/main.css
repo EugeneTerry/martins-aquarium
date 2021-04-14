@@ -14,20 +14,32 @@
     color: darkslateblue;
 }
 
+.header--martin {
+
+}
+
 .main {
     display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    border: 1px dotted black
+    flex-grow: 4;
 }
 
 .right {
     flex: 1;
 }
 
-.aside {
-    border: 3px dotted black;
+.care_tips_right {
+    border: 1px dotted black;
+    padding: 10px;
 }
 
 img {
     width: 10rem;
+    border-radius: 10%
 }
 
 .footer {
