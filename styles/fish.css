@@ -1,0 +1,10 @@
+.fishes {
+    
+}
+
+.fish {
+    flex-basis: 40%;
+    flex-wrap: wrap;
+    border: 1px dotted black;
+    padding: 10px;
+}

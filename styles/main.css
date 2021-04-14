@@ -1,0 +1,36 @@
+@import'./fish.css';
+@import'./locations.css';
+@import'./quote.css';
+
+.header {
+    display: flex;
+    border: 1px dotted black;
+}
+
+.title {
+    border: 3px dotted black;
+    display: flex;
+    margin: auto;
+    color: darkslateblue;
+}
+
+.main {
+    display: flex;
+}
+
+.right {
+    flex: 1;
+}
+
+.aside {
+    border: 3px dotted black;
+}
+
+img {
+    width: 10rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
