@@ -1,9 +1,11 @@
 .section--locations {
     padding: 12px;
+    
 }
 
 .locations {
     text-align: center;
     border: 1px dotted black;
     align-content: center;
+    background: #aa8200;
 }
