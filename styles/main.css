@@ -1,17 +1,24 @@
 @import'./fish.css';
 @import'./locations.css';
 @import'./quote.css';
+@import'./quotes.css';
+
+
+.logo img{
+    border-radius: 100%
+    width: 10rem;
+}
 
 .header {
     display: flex;
     border: 1px dotted black;
+    background: #03b6d7;
 }
 
 .title {
-    border: 3px dotted black;
     display: flex;
     margin: auto;
-    color: #0283b6;
+    color: #001336;
 }
 
 .header--martin {
@@ -19,6 +26,7 @@
 }
 
 .main {
+    text-align: center;
     display: flex;
     justify-content: space-between;
 }
@@ -29,13 +37,15 @@
 }
 
 .right {
+    text-align: left;
     flex: 3;
 }
 
 .care_tips_right {
     border: 1px dotted black;
     padding: 10px;
-    
+    border-radius: 10px;
+    background-color: #ffad36b5;
 }
 
 img {
@@ -46,4 +56,5 @@ img {
 .footer {
     display: flex;
     justify-content: space-between;
+    background-color: #03b6d7;
 }

@@ -1,5 +1,5 @@
 .section--locations {
-    padding: 12px;
+    padding: 5px;
     
 }
 
@@ -7,5 +7,9 @@
     text-align: center;
     border: 1px dotted black;
     align-content: center;
-    background: #aa8200;
+    background: #ffad36b5;
+    border-radius: 10px;
+}
+.header--locations {
+    text-align: center;
 }
