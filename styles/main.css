@@ -4,9 +4,8 @@
 @import'./quotes.css';
 
 
-.logo img{
+.logo img {
     border-radius: 100%
-    width: 10rem;
 }
 
 .header {
@@ -27,18 +26,18 @@
 
 .main {
     text-align: center;
-    display: flex;
-    justify-content: space-between;
+    /*display: flex;*/
+    flex-basis: auto;
 }
 
 .left {
     border: 1px dotted black
-    flex: auto;   
+     
 }
 
 .right {
     text-align: left;
-    flex: 3;
+    flex: 0.6;
 }
 
 .care_tips_right {
@@ -54,7 +53,8 @@ img {
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
+ 
+    justify-content: center;
     background-color: #03b6d7;
 }
