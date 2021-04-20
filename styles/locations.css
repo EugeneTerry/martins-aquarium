@@ -1,5 +1,7 @@
 .section--locations {
+    display: flex;
     padding: 5px;
+    justify-content: space-between;
     
 }
 
@@ -9,6 +11,10 @@
     align-content: center;
     background: #ffad36b5;
     border-radius: 10px;
+    padding: 0em;
+    margin: 0em;
+    width: 200px;
+    
 }
 .header--locations {
     text-align: center;
