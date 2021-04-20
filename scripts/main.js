@@ -1,8 +1,6 @@
-const fishCards = [
-    { 
-    'Name': 'Dr. Blubz',
-    'Species': '',
-    'Lenth': '',
-    'Location': '',
-    'Eats': ''}
-]
+import {FishList} from 'FishList'
+
+const parentHTMLElement = document.querySelector(".")
+
+
+parentHTMLElement.innerHTML = FishList()
