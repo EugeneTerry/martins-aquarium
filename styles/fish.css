@@ -1,5 +1,5 @@
 
-.fishes {
+.fishcard {
      display: flex;
      flex-basis: 50%;
      border: 1px dotted black;
@@ -9,7 +9,7 @@
      justify-content: space-between;
 }
 
-.fish {
+.fishList {
      flex-wrap: wrap;
      border: 1px dotted black;
      justify-content: space-between;
