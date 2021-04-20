@@ -1,4 +1,5 @@
 @import'./fish.css';
+@import'./fishes.css';
 @import'./locations.css';
 @import'./quote.css';
 @import'./quotes.css';
@@ -26,12 +27,13 @@
 
 .main {
     text-align: center;
-    /*display: flex;*/
+    display: flex;
     flex-basis: auto;
 }
 
 .left {
     border: 1px dotted black
+    
      
 }
 
