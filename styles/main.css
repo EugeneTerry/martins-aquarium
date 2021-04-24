@@ -1,7 +1,5 @@
 @import'./fish.css';
-@import'./fishes.css';
 @import'./locations.css';
-@import'./quote.css';
 @import'./quotes.css';
 
 
@@ -33,7 +31,7 @@
 
 .left {
     border: 1px dotted black
-    
+    display: flex;
      
 }
 

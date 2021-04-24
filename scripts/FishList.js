@@ -1,8 +1,8 @@
-import {fish} from 'database'
+import {database} from './database.js'
 
 export const FishList = () => {
-  const fishes = invokeTheRightFunctionHere()
-  const htmlString = '<article class = "fishList">'
+  const fishes = database.fish
+  let htmlString = '<article class = "fishList">'
   for (const fish of fishes) {
     htmlString += `<section class = "fishcard">
       <div>
@@ -18,9 +18,11 @@ export const FishList = () => {
       </div>
       <div class="fish__diet">${fish.eats}
       </div>
-      </section>
-    `
+    </section>
+  `
+  
     }
     htmlString += `</article>`
+    
     return htmlString
-}
+}  

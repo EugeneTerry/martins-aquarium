@@ -1,4 +1,4 @@
-const database = {
+export const database = {
     fish: [
         {
             name: "Mr Tickles",
