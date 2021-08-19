@@ -4,7 +4,7 @@ export const database = {
             name: "Mr Tickles",
             image: "https://i.natgeofe.com/n/18708334-6fce-40b5-ade6-a7e2db7035f2/01-goldfish-nationalgeographic_1567132_square.jpg?w=171.35999870300293&h=171.35999870300293",
             species: "Gold Fish",
-            length: "22 Inches",
+            length: "14 Inches",
             location: "Tulm Mexico",
             eats: "Kele Chips"
         },
